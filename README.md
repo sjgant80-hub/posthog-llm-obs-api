@@ -1,18 +1,19 @@
-# posthog-llm-obs-api
+# posthog-llm-obs API
 
-Sovereign HTTP proxy for **PostHog LLM Observability** · exposes SDK methods over REST.
+> Sovereign wrapper for target · real bindings
 
-## Endpoints
-- `GET /` — metadata + available methods
-- `GET /health` — health check
-- `POST /call/:method` — invoke SDK method with JSON body as params
+## Install
 
-## Env
-`POSTHOG_LLM_OBS_API_KEY` required.
-
-## Run
-```bash
-npm install && npm start
+```
+npm install @ai-native-solutions/posthog-llm-obs-api
 ```
 
-MIT · AI-Native Solutions estate.
+## Links
+
+- FallMarket listing: https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-llm-obs-api
+- Source: https://github.com/sjgant80-hub/posthog-llm-obs-api
+
+
+## License
+
+MIT · Copyright 2026 AI-Native Solutions · https://ai-nativesolutions.com
